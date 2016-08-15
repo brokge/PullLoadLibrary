@@ -8,7 +8,7 @@ import android.util.AttributeSet;
 
 /**
  * 网格布局recyclerview
- * <p/>
+ *
  * Created by brokge on 16/8/10.
  */
 public class GridRecyclerView extends SuperRecyclerView {

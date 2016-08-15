@@ -6,7 +6,7 @@ import android.util.AttributeSet;
 
 /**
  * 线性布局 RecyclerView
- * <p/>
+ *
  * Created by brokge on 16/8/10.
  */
 public class LinearRecyclerView extends SuperRecyclerView {

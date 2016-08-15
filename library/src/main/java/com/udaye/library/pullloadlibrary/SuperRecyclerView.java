@@ -10,7 +10,7 @@ import android.util.AttributeSet;
 
 /**
  * 基类
- * <p/>
+ *
  * Created by brokge on 16/8/11.
  */
 public class SuperRecyclerView extends RecyclerView {

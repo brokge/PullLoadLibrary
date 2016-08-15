@@ -9,6 +9,7 @@ import android.view.ViewGroup;
 import java.util.ArrayList;
 import java.util.List;
 
+
 /**
  */
 public abstract class RecyclerViewCommonAdapter<T> extends RecyclerView.Adapter {
@@ -69,7 +70,7 @@ public abstract class RecyclerViewCommonAdapter<T> extends RecyclerView.Adapter 
 
     /**
      * 添加一个尾部view
-     * <p/>
+     *
      * 可以是自定义 也可以是默认的 loadmore view
      *
      * @param footView
