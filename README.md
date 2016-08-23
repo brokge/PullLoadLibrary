@@ -2,8 +2,16 @@
 [ ![Download](https://api.bintray.com/packages/brokge/maven/pulltoload/images/download.svg) ](https://bintray.com/brokge/maven/pulltoload/_latestVersion)
 
 基于 RecyclerView 封装，上拉加载更多的库。
-## Usage：
+## Dependencies
+Gradle 脚本引入：
 
+```gradle
+
+compile 'com.udaye.library:pulltoload:1.0.0'
+
+```
+
+## Usage
 ### 一、GridRecyclerView
 网格布局视图
 
@@ -132,7 +140,7 @@ private boolean isHasNext(){
 
 ```
 
-Adapter 适配器代码：
+### Adapter 适配器代码：
 
 ```java
 
