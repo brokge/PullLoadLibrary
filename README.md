@@ -1,12 +1,10 @@
 # PullLoadLibrary
-
-基于 RecyclerView 封装，上拉加载更多的库。
-
 [ ![Download](https://api.bintray.com/packages/brokge/maven/pulltoload/images/download.svg) ](https://bintray.com/brokge/maven/pulltoload/_latestVersion)
 
+基于 RecyclerView 封装，上拉加载更多的库。
 ## Usage：
 
-### GridRecyclerView
+### 一、GridRecyclerView
 网格布局视图
 
 ```xml
@@ -75,7 +73,7 @@ Java 代码：
    }
 
 ```
-### LinearRecyclerView
+### 二、LinearRecyclerView
 线性布局方式
 
 ```xml
@@ -134,11 +132,6 @@ private boolean isHasNext(){
 
 ```
 
-
-
-
-
-
 Adapter 适配器代码：
 
 ```java
@@ -177,3 +170,5 @@ public class CustomerAdapter extends com.udaye.library.pullloadlibrary.RecyclerV
 
 }
 ```
+
+其中 Adapter 必须要继承  `RecyclerViewCommonAdapter` ，这是一个封装的 adapter 使用起来更方便。
