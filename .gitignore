@@ -9,3 +9,5 @@
 /captures
 .externalNativeBuild
 /app/build
+/pulltoload/pulltoload.iml
+/app/app.iml
