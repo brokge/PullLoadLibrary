@@ -11,6 +11,13 @@ compile 'com.udaye.library:pulltoload:1.0.0'
 
 ```
 
+## Demo
+效果图如下
+
+![效果图](https://github.com/brokge/pullloadlibrary/blob/master/cature/pull.gif)
+
+
+
 ## Usage
 ### 一、GridRecyclerView
 网格布局视图
