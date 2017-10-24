@@ -1,4 +1,4 @@
-公共适配器
+# 公共适配器
 
 ## `RecyclerViewCommonAdapter<T> extends RecyclerView.Adapter`
 
